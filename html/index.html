@@ -1,11 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Personal VIVQ</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
     
-</body>
+    </head>
+    <body>
+        <header class="navegador">
+            <a href="#inicio" class="logo"> Vanessa
+                <span>Valladares</span></a>
+
+                <i class="bx bx-menu" id="menu-icon"></i>
+                <nav class="navbar">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre mi</a>
+                    <a href="#trabajos">Trabajos</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+        </header>
+
+        <section class="inicio" id="inicio">
+        
+            <div class="inicio-contenido">
+                <h1>¡Hola! Soy <span>Vanessa</span></h1>
+                <h3>Estudio Ing. <span>Ciencias de la Computacion</span></h3>
+                <p>
+                    Soy una estudiante apasionada por la tecnología y la innovación. 
+                    Me encanta aprender y compartir conocimientos. 
+                    <br> ¡Bienvenido a mi portafolio!
+                </p>
+
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </div>
+
+                <div class="btn-group">
+                    <a href="#contacto" class="btn">Contactame</a>
+                    <a href="#trabajos" class="btn">Mis trabajos</a>
+                </div>
+
+            </div>
+                
+            <div class="inicio-img">
+                <img src="../img/selfie_5.jpg" alt="Foto de perfil Vanessa Valladares">
+            </div>
+        </section>
+
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="sobre-mi-img">
+                <h2 class="heading">¡Conóceme!</h2>
+                <img src="../img/selfie_3.jpg" alt="Foto de perfil Vanessa Valladares">
+            </div>
+
+            <div class="sobre-mi-contenido">
+
+                <h2>¿Quién es <span>Vanessa V</span>?</h2>
+                <p>
+                    Soy bachiller en Ciencias y Humanidades,
+                     graduada del Instituto San José del Carmen, y 
+                     actualmente curso la Ingeniería en Ciencias de la 
+                     Computación en la Universidad Católica de Honduras. 
+                     A lo largo de mi formación, he complementado mis 
+                     estudios con diversos cursos en línea a través de 
+                     Cisco e INFOP, obteniendo certificaciones en diseño 
+                     de bases de datos, CCNA 1 y 2, ciberseguridad y 
+                     fundamentos de Java. Además, cuento con dominio de 
+                     tres idiomas: español, inglés y coreano. <br>
+
+                    <br>Me considero una persona proactiva, responsable y con
+                    metas claras, siempre en busca de crecimiento 
+                    personal y profesional. Enfrento los desafíos 
+                    con determinación y, en caso de no conocer algo,
+                    recurro al aprendizaje autodidacta para mejorar mis
+                    habilidades y aportar soluciones innovadoras en el 
+                    ámbito tecnológico.
+                </p>
+                <a href="#" class="btn">Contactame</a>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            
+        </section>
+
+        <section class="trabajos" id="trabajos">
+            <h2 class="heading">Trabajos</h2>
+
+            <div class="trabajos-container">
+                <div class="trabajo-box">
+                    <div class="trabajo-info">
+
+                        <i class='bx bx-game' ></i>
+                        <h4>Proyecto 1</h4>
+                        <p>
+                            Proyecto de aplicacion para desktop informativa sobre el videojuego Genshin Impact.
+                            El cual es una enciclopedia de personajes, armas, artefactos y más.
+                            Donde cada personaje tiene su propia página con información detallada y 
+                            build recomendado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="trabajo-box">
+                    <div class="trabajo-info">
+
+                        <i class='bx bx-desktop'></i> 
+                       <h4>Proyecto 2</h4>
+                        <p>  
+                            Este sistema proporciona una plataforma unificada 
+                            para la gestión de datos,
+                            permitiendo una mayor eficiencia en los procesos, 
+                            una mayor precisión en los cálculos y
+                            una mejor colaboración entre los empleados 
+                            al tener una buena organización.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="trabajo-box">
+                    <div class="trabajo-info">
+        
+                        <i class='bx bx-briefcase'></i> 
+                        <h4>Proyecto 3</h4>
+                        <p>
+                            La página web tiene como objetivo brindar información sobre los servicios que ofrece el bufete, 
+                            así como los miembros del equipo y sus especialidades.
+                            <br>Además, se incluye un formulario de contacto para que los clientes puedan solicitar información adicional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Nombre Completo!">
+                        <input type="email" placeholder="Correo Electronico!">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" placeholder="Numero de Telefono!">
+                        <input type="text" placeholder="Asunto!">
+                    </div>
+                </div>
+
+                <div class="input-group2">
+                    <textarea name="" id="" cols="30" rows="10"
+                    placeholder="Mensaje!"></textarea>
+
+                    <input type="submit" value="Enviar Mensaje" 
+                    class="btn">
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#trabajos">Trabajos</a>
+                </li>
+                <li>
+                    <a href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+            <p class="copy-right">
+                &copy; 2025 Vanessa Valladares. Todos los derechos reservados.
+            </p>
+        </footer>
+
+        <script src="../js/main.js"></script>
+    </body>
 </html>
