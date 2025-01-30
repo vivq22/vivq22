@@ -9,7 +9,7 @@ menuIcon.onclick = () => {
 
 const audio = document.createElement("audio");
 audio.preload = "auto";
-audio.src = "../img/mp3/Strawberry.mp3";
+audio.src = "img/mp3/Strawberry.mp3";
 audio.autoplay = true;
 audio.loop = true;
 audio.volume = 0.3;
