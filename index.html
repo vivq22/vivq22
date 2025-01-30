@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio Personal VIVQ</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
 
     
@@ -93,7 +93,65 @@
         </section>
 
         <section class="habilidades" id="habilidades">
-            
+            <h2 class="heading">Habilidades</h2>
+            <h3 class="hb-mensaje">Las habilidades, herramientas y tecnologias que uso para mis proyectos:</h3>
+            <div>
+                <div class="skills-container">
+                    <div class="skills-box">
+                        <i class='bx bxl-html5'></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-css3'></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-javascript' ></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-visual-studio' ></i>
+                        <h3>VS Code</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-nodejs'></i>
+                        <h3>Node</h3>
+                    </div>
+
+                    <div class="skills-box">
+                        <i class='bx bxl-java'></i>
+                        <h3>Java</h3>
+                    </div>
+
+                    <div class="skills-box">
+                        <i class='bx bxl-react'></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-mongodb'></i>
+                        <h3>Mongo DB</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-git'></i>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bx-data' ></i>
+                        <h3>SQL</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-c-plus-plus' ></i>
+                        <h3>C++</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxs-file-json'></i>
+                        <h3>JSON</h3>
+                    </div>
+            </div>
+
+            <h3>
+                Actualmente estoy aprendiendo a usar Bootstrap y Python.
+            </h3>
         </section>
 
         <section class="trabajos" id="trabajos">
@@ -148,25 +206,23 @@
         <section class="contacto" id="contacto">
             <h2 class="heading">Contact <span>Me</span></h2>
 
-            <form action="">
+            <form action="" id="contact-form">
                 <div class="input-group">
                     <div class="input-box">
-                        <input type="text" placeholder="Nombre Completo!">
-                        <input type="email" placeholder="Correo Electronico!">
+                        <input type="text" id="name" placeholder="Nombre Completo!">
+                        <input type="email" id="email" placeholder="Correo Electronico!">
                     </div>
 
                     <div class="input-box">
-                        <input type="number" placeholder="Numero de Telefono!">
-                        <input type="text" placeholder="Asunto!">
+                        <input type="number" id="phone" placeholder="Numero de Telefono!">
+                        <input type="text" id="subject" placeholder="Asunto!">
                     </div>
                 </div>
 
                 <div class="input-group2">
-                    <textarea name="" id="" cols="30" rows="10"
-                    placeholder="Mensaje!"></textarea>
+                    <textarea id="message" cols="30" rows="10" placeholder="Mensaje!"></textarea>
 
-                    <input type="submit" value="Enviar Mensaje" 
-                    class="btn">
+                    <input type="submit" value="Enviar Mensaje" class="btn">
                 </div>
             </form>
         </section>
@@ -205,6 +261,6 @@
             </p>
         </footer>
 
-        <script src="../js/main.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>

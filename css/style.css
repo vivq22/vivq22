@@ -252,7 +252,7 @@ html {
     }
 
     .trabajos{
-        background-color: var(--bg-color);
+        background-color: var(--second-bg-color);
         color: black;
     }
 
@@ -377,7 +377,47 @@ html {
         font-size: 16px;
     }
 
+    .habilidades h3{
+        font-size: 4rem;
+        margin: 5rem 0;
+        text-align: center;
+    }
 
+    .hb-mensaje{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        font-size: 10px;
+    }
+
+    .skills-container{
+        text-align: center;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+
+    .skills-box i{
+        font-size: 9rem;
+        color: var(--main-color);
+    }
+
+    .skills-box h4{
+        font-size: 3rem;
+        margin: 2rem 0;
+        font-weight: 800;
+    }
 
     /* Responsive */
 
